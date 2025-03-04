@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_texts",
+  "info": {
+    "singularName": "about-text",
+    "pluralName": "about-texts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Text": {
+      "type": "blocks"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
